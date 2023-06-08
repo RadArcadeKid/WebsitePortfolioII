@@ -1,0 +1,98 @@
+/*Jake Henson, 2019*/
+#container {
+	width:100%;
+	max-width:960px;
+	height:960px;
+	margin:0px auto; 
+	background-color:rgb(20,20,20);
+	padding:0px;
+	box-sizing:border-box;
+
+  	display: grid;
+  	grid-template-columns: repeat(5, 20%);
+  	grid-template-rows: 16% 21% 21% 21% 21%;
+}
+h1{
+	width:100%;
+	background-color:rgb(180,180,180);
+	padding:5px;
+	margin:2px;
+	box-sizing:border-box;
+	text-align:center; 
+}
+h2{
+	font-size: 1.5em;
+}
+
+.fullbox{
+	background-color:rgb(200,200,200);
+	margin:4px;
+	padding:5px;
+	box-sizing:border-box;
+	text-align:center; 
+	grid-column-end: span 5;
+}
+
+.fifthRecordbox{
+	background-color:rgb(180,180,180);
+	margin:4px; 
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center; 
+	grid-column-end: span 1;
+}
+
+#container2{
+	width:100%;
+	max-width:960px; 
+	height:960px;
+	margin:0px auto; 
+	background-color:rgb(20,20,20);
+	padding:0px;
+	box-sizing:border-box;
+
+  	display: grid;
+  	grid-template-columns: repeat(4, 25%);
+  	grid-template-rows: 15% 31% 4% 14% 32% 4%;
+}	
+
+.fullbox2{
+	background-color:rgb(200,200,200);
+	margin:4px;
+	padding:5px;
+	box-sizing:border-box;
+	text-align:center; 
+	grid-column-end: span 4;
+}
+
+.halfbox{
+	background-color:rgb(180,180,180);
+	margin:4px; 
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center; 
+	grid-column-end: span 2;
+}
+
+.fourthbox{
+	background-color:rgb(200,200,200);
+	margin:4px; 
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center; 
+	grid-column-start: span 1;
+}
+
+#container3{
+	width:100%;
+	max-width:960px; 
+	height:610px;
+	margin:0px auto; 
+	background-color:rgb(20,20,20);
+	padding:0px;
+	box-sizing:border-box;
+
+  	display: grid;
+  	grid-template-columns: repeat(5, 20%);
+  	grid-template-rows: 27% 31% 36% 6%;
+}

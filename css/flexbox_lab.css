@@ -1,0 +1,166 @@
+/*Jake Henson, 2019*/
+body{
+	font-family:helvetica, arial, sans-serif;
+	color:rgb(50,50,50);
+	margin:0px; 
+}
+
+#container{
+	width:100%; 
+	max-width:960px;
+	margin:0px auto; 
+	background-color:rgb(225,225,225);
+	padding:0px;
+	box-sizing:border-box;
+
+	display: /*weird*/ flex /*but okay*/;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:flex-start; 
+	align-items:stretch;
+}
+
+header{
+	width:100%;
+	background-color:rgb(200,200,200);
+	padding:50px;
+	box-sizing:border-box;
+	text-align:center; 
+}
+
+nav{
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:10px 0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center;
+}
+nav ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	display:inline-block;
+	margin:0px 50px;
+	background-color:rgb(150,150,150);
+	padding:10px;
+}
+nav a{
+	text-decoration:none;
+}
+
+article{
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	display:flex;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:center; 
+	align-items:stretch;
+}
+
+.fullwidth{ 	
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.mostwidth{ 	
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:75%;
+	padding:3%;
+	box-sizing:border-box;
+	flex-direction: row;
+	align-content: center;
+}
+
+.halfwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:46%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.thirdwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:29.33333333%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.quarterwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:21%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.fifthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:16%;
+	padding:2%;
+	display: flex; 
+	box-sizing:border-box;
+	align-items: center; 
+}
+
+.otherfifthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:12%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+
+.fifthwidthSelf{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:32%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.finalfifthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:17%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.eighthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:4.5%;
+	padding:2%;
+}
+
+.paragraphsInside{
+	padding-left: 5%;
+	padding-right: 5%; 
+	background-color:rgb(175,175,175);
+}
+
+.paragraphbox{
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
+}
+	
+img{
+	max-width:100%;
+}
